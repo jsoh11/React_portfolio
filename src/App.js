@@ -3,6 +3,8 @@ import './App.css';
 import Nav from './components/Nav';
 import Cards from './components/Cards';
 import PreviousWork from './components/PreviousWork';
+import Contact from './components/Contact';
+
 
 
 function App() {
@@ -11,8 +13,10 @@ function App() {
     <Nav></Nav>
     
     <Cards></Cards>
-    
+
     <PreviousWork></PreviousWork>
+
+    <Contact></Contact>
     </>
   );
 }

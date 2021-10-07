@@ -27,7 +27,7 @@ export default function PreviousWork() {
       <div class="card" id="my-work">
         <div class="card-image">
           <figure class="image is-4by3">
-            <img src="/assets/password.png" alt="password"/>
+            <img src="./assets/password.png" alt="password"/>
           </figure>
         </div>
         <div class="card-content"> 
