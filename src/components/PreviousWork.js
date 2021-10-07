@@ -8,7 +8,7 @@ export default function PreviousWork() {
       <div class="card" id="my-work">
         <div class="card-image">
           <figure class="image is-4by3">
-            <img src= './public/assets/notetaker.png' alt="NoteTaker"/>
+            <img src= {process.env.PUBLIC_URL +'/assets/notetaker.png'} alt="NoteTaker"/>
           </figure>
         </div>
         <div class="card-content">
@@ -27,7 +27,7 @@ export default function PreviousWork() {
       <div class="card" id="my-work">
         <div class="card-image">
           <figure class="image is-4by3">
-            <img src="./assets/password.png" alt="password"/>
+            <img src={process.env.PUBLIC_URL + "/assets/password.png"} alt="password"/>
           </figure>
         </div>
         <div class="card-content"> 
@@ -45,7 +45,7 @@ export default function PreviousWork() {
       <div class="card" id="my-work">
         <div class="card-image">
           <figure class="image is-4by3">
-            <img src="./public/assets/vernaculearn.png" alt="vernaculearn"/>
+            <img src= {process.env.PUBLIC_URL + "/assets/vernaculearn.png"} alt="vernaculearn"/>
           </figure>
         </div>
         <div class="card-content">
